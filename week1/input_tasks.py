@@ -10,6 +10,26 @@
 #print("#        #")
 #print("##########")
 
-print("What is your name")
+print("What is your name?")
+firstname = input()
+
+
+print("How old are you (in years)?")
+age = input()
+
+print("How tall are you (in meters)?")
+height = float(input())
+
+print("How much do you weigh (in kilograms)?")
+weight = int(input())
+
+
+bmi = weight / height ** 2
+bmi_r = round(bmi, 2)
+
+
+print(f"{firstname} your bmi is {bmi_r}.")
+
+
 
 
