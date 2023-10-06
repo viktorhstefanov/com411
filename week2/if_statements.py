@@ -31,3 +31,13 @@ elif direction == "right":
     print("I am moving to the right")
 else:
     print("I do not understand where to move")
+
+
+print("Please enter a whole number")
+number = input()
+remainder = int(number) % 2
+
+if remainder != 0:
+    print(f"The number {number} is an odd number.")
+elif remainder == 0:
+    print(f"The number {number} is an even number.")
