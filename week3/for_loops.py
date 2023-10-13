@@ -21,3 +21,14 @@ for count in range(step, 0, -1):
 
 print("Target achieved!")
 
+# Activity 3:
+print("What level of brightness is required?")
+brightness_level = int(input())
+print("Adjusting brightness...")
+print()
+
+for count in range(2, brightness_level + 1, 2):
+    print(f"Brightness level: ", {count * '*'})
+
+
+
