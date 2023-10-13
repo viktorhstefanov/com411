@@ -33,3 +33,10 @@ print("The battery is fully charged.")
 
 # Activity 4:
 print("Please enter a phrase")
+phrase = input()
+letters = 0
+
+while letters < len(phrase):
+    letters = letters + 1
+    print("Hi", end=" " )
+
