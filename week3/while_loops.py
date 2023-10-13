@@ -38,5 +38,17 @@ letters = 0
 
 while letters < len(phrase):
     letters = letters + 1
-    print("Hi", end=" " )
+    print(f"Hi", end=" ")
+
+# Activity 5:
+print()
+print("Calculating the sum of the first 100 numbers...")
+number = 1
+sum = 0
+
+while number <= 100:
+    number = number + 1
+    sum = number + sum
+
+print(f"...Done! The answer is {sum}.")
 
