@@ -11,3 +11,13 @@ for count in range(mountains):
     print("        /  ^    \_")
     print("     _/ ^ ^     ^\ ")
     print("     /  ^     ^    \ ")
+
+# Activity 2
+print("How far are we from the target?")
+step = int(input())
+
+for count in range(step, 0, -1):
+        print(f"{count} steps remaining")
+
+print("Target achieved!")
+
