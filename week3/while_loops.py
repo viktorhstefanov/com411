@@ -52,3 +52,16 @@ while number <= 100:
 
 print(f"...Done! The answer is {sum}.")
 
+# Activity 5:
+print("How many numbers should I sum up?")
+numbers = int(input())
+sum_to = 0
+sum_two = 0
+
+while sum_to < numbers:
+    sum_to = sum_to + 1
+    print(f"Please enter number {sum_to} of {numbers}:")
+    num = int(input())
+    sum_two = num + sum_two
+
+print(f"The answer is {sum_two}")
