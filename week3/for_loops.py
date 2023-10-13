@@ -30,5 +30,16 @@ print()
 for count in range(2, brightness_level + 1, 2):
     print(f"Brightness level: ", {count * '*'})
 
+print("Complete!")
 
+# Activity 4
+print("What word do you see?")
+word = input()
 
+print("Displaying input positions...")
+
+for position in range(0, len(word), 1):
+    print(f"index: {position}", end=" ")
+    print(word[position])
+
+print("Done!")
