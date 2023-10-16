@@ -43,3 +43,14 @@ for position in range(0, len(word), 1):
     print(word[position])
 
 print("Done!")
+
+# Activity 6
+print("What phrase do you want to see in reverse?")
+phrase_reverse = input()
+
+print("Reversing...")
+print(f"The phrase is ", end=" ")
+
+for position in range(len(phrase_reverse) - 1, -1, -1):
+    print(phrase_reverse[position], end="")
+
