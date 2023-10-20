@@ -20,6 +20,7 @@ def identify():
 
 identify()
 
+
 # Activity 3:
 def escape_by(plan):
     if plan == "jumping over":
@@ -31,6 +32,21 @@ def escape_by(plan):
     else:
         print("We cannot escape that way! The boulder is in the way!")
 
+
 escape_by("jumping over")
 escape_by("running around")
-escape_by("cross bridge ahead")
+escape_by("cross bridge ahead")  #
+
+
+# Activity 4:
+def cross_bridge(step):
+    for step in range(step):
+        print("Crossed step!")
+    if step > 5:
+        print("The bridge is collapsing!")
+    else:
+        print("We must keep going!")
+
+
+cross_bridge(3)
+cross_bridge(6)
