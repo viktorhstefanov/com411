@@ -43,9 +43,23 @@ def menu():
     for index in range(len(direction)):
         dire = direction[index]
         print(f"{index}: {dire}")
+    user_input = input()
+    if user_input == "0":
+        return "Move Forward"
+    elif user_input == "1":
+        return "Move Backward"
+    elif user_input == "2":
+        return "Turn Left"
+    elif user_input == "3":
+        return "Turn Right"
 
 
-
+def run_task4():
+    route = []
+    print("Working out an escape route.")
+    for count in range(5):
+        route.append(menu())
+    print(f"Escape route: {route}")
 
 
 def run_task3():
@@ -53,3 +67,8 @@ def run_task3():
 
 
 run_task3()
+
+# Activity 4
+
+
+run_task4()
