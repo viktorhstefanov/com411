@@ -30,3 +30,26 @@ def run_task2():
 
 run_task2()
 
+
+# Activity 3
+def directions():
+    steps = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
+    return steps
+
+
+def menu():
+    print("Please select a direction:")
+    direction = directions()
+    for index in range(len(direction)):
+        dire = direction[index]
+        print(f"{index}: {dire}")
+
+
+
+
+
+def run_task3():
+    menu()
+
+
+run_task3()
