@@ -26,3 +26,26 @@ def run_task2():
 
 run_task2()
 
+
+# Activity 3
+def steps():
+    likelihoods = [("step 1", 50), ("step 2", 38), ("step 3", 27), ("step 4", 99), ("step 5", 4)]
+    return likelihoods
+
+
+def run_task3():
+    likelihood1 = steps()
+    good_steps = []
+    bad_steps = []
+    for item in likelihood1:
+            if item[1] >= 50:
+                good_steps.append(item)
+            elif item[1] <= 50:
+                bad_steps.append(item)
+    print(f"Good steps: {len(good_steps)}, Bad steps {len(bad_steps)}")
+
+
+run_task3()
+
+
+
