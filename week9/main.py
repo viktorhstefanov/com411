@@ -7,4 +7,4 @@ human1 = Human("Bob")
 
 planet1.add_human(human1)
 
-print(planet1.humans)
+print(planet1.inhabitants["humans"])
